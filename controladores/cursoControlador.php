@@ -4,7 +4,7 @@
 	}else{
 		require_once "./modelos/cursoModelo.php";
 	}
-
+   
 	/**
 	 * 
 	 */
@@ -54,12 +54,9 @@
 				exit();
 			}
             
-          
-            
             /* Valores en KB para peso maximo de archivos */
 			$imgMaxSize=1024;
 			$pdfMaxSize=10240;
-
 
 			/* Directorios de archivos */
 			$imgDir='../adjuntos/img/';

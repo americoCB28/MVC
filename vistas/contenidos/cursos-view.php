@@ -46,19 +46,19 @@
                         </select>
                     </div>
                     <div class="group-material">
-                        <input type="text" class="tooltips-general material-control" placeholder="Escribe aquí el código correlativo del curso" pattern="[0-9a-zA-ZáéíóúÁÉÍÓÚñÑ ]{15,50}" required="" maxlength="50" data-toggle="tooltip" data-placement="top" title="Escribe el código correlativo del curso" name="codigo-reg">
+                        <input type="text" class="tooltips-general material-control" placeholder="Escribe aquí el código correlativo del curso" pattern="[0-9a-zA-ZáéíóúÁÉÍÓÚñÑ ]{5,50}" required="" maxlength="50" data-toggle="tooltip" data-placement="top" title="Escribe el código correlativo del curso" name="codigo-reg">
                         <span class="highlight"></span>
                         <span class="bar"></span>
                         <label style="font-weight:bold;">Código correlativo</label>
                     </div>
                     <div class="group-material">
-                        <input type="text" class="tooltips-general material-control" placeholder="Escribe aquí el título o nombre del curso" pattern="[0-9a-zA-ZáéíóúÁÉÍÓÚñÑ ]{10,70}" required="" maxlength="70" data-toggle="tooltip" data-placement="top" title="Escribe el título o nombre del curso" name="nombre-reg">
+                        <input type="text" class="tooltips-general material-control" placeholder="Escribe aquí el título o nombre del curso" pattern="[0-9a-zA-ZáéíóúÁÉÍÓÚñÑ ]{5,70}" required="" maxlength="70" data-toggle="tooltip" data-placement="top" title="Escribe el título o nombre del curso" name="nombre-reg">
                         <span class="highlight"></span>
                         <span class="bar"></span>
                         <label style="font-weight:bold;">Nombre</label>
                     </div>
                     <div class="group-material">
-                        <input type="number" class="tooltips-general material-control" min="10" max="100" placeholder="Escribe aquí el número de horas cronológicas del curso" required=""  data-toggle="tooltip" data-placement="top" title="Escribe el número de horas cronológicas del curso" name="horas-reg">
+                        <input type="number" class="tooltips-general material-control" min="10" max="1200" placeholder="Escribe aquí el número de horas cronológicas del curso" required=""  data-toggle="tooltip" data-placement="top" title="Escribe el número de horas cronológicas del curso" name="horas-reg">
                         <span class="highlight"></span>
                         <span class="bar"></span>
                         <label style="font-weight:bold;">Número horas cronológicas</label>
